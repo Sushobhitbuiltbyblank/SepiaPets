@@ -30,8 +30,6 @@ struct AppContentVisibilityConfigManager: ContentVisibilityConfigManagerProtocol
     guard let endDay = days.last else { return nil }
     let startTime = component[component.index(component.startIndex, offsetBy: 1)]
     guard let endTime = component.last else { return nil}
-    print(startTime)
-    print(endTime)
 
     let startDayNumber = WeekDay.init(rawValue: "\(startDay)")?.getNumber() ?? 0
     let endDayNumber = WeekDay.init(rawValue: "\(endDay)")?.getNumber() ?? 0

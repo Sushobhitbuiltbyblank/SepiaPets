@@ -13,7 +13,6 @@
 		DE2F3F9229029A9B00DFD47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F3F9029029A9B00DFD47B /* Main.storyboard */; };
 		DE2F3F9429029A9D00DFD47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2F3F9329029A9D00DFD47B /* Assets.xcassets */; };
 		DE2F3F9729029A9D00DFD47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F3F9529029A9D00DFD47B /* LaunchScreen.storyboard */; };
-		DE2F3FA229029A9D00DFD47B /* SepiaPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3FA129029A9D00DFD47B /* SepiaPetsTests.swift */; };
 		DE2F3FAC29029A9D00DFD47B /* SepiaPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3FAB29029A9D00DFD47B /* SepiaPetsUITests.swift */; };
 		DE2F3FAE29029A9D00DFD47B /* SepiaPetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3FAD29029A9D00DFD47B /* SepiaPetsUITestsLaunchTests.swift */; };
 		DEF878372907B7D200268E78 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = DEF878352907B7D200268E78 /* pets_list.json */; };
@@ -39,6 +38,8 @@
 		DEF878712908554800268E78 /* AppContentVisibilityConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878702908554800268E78 /* AppContentVisibilityConfigManager.swift */; };
 		DEF878762908677C00268E78 /* RestrictedErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878752908677C00268E78 /* RestrictedErrorViewController.swift */; };
 		DEF87878290868D100268E78 /* RestrictedErrorCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF87877290868D100268E78 /* RestrictedErrorCoordinator.swift */; };
+		DEF8787A2908754300268E78 /* PetListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878792908754300268E78 /* PetListViewModelTests.swift */; };
+		DEF878812908802800268E78 /* RestrictedErrorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878802908802800268E78 /* RestrictedErrorViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +69,6 @@
 		DE2F3F9629029A9D00DFD47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2F3F9829029A9D00DFD47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE2F3F9D29029A9D00DFD47B /* SepiaPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2F3FA129029A9D00DFD47B /* SepiaPetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsTests.swift; sourceTree = "<group>"; };
 		DE2F3FA729029A9D00DFD47B /* SepiaPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F3FAB29029A9D00DFD47B /* SepiaPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsUITests.swift; sourceTree = "<group>"; };
 		DE2F3FAD29029A9D00DFD47B /* SepiaPetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -95,6 +95,8 @@
 		DEF878702908554800268E78 /* AppContentVisibilityConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentVisibilityConfigManager.swift; sourceTree = "<group>"; };
 		DEF878752908677C00268E78 /* RestrictedErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedErrorViewController.swift; sourceTree = "<group>"; };
 		DEF87877290868D100268E78 /* RestrictedErrorCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedErrorCoordinator.swift; sourceTree = "<group>"; };
+		DEF878792908754300268E78 /* PetListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModelTests.swift; sourceTree = "<group>"; };
+		DEF878802908802800268E78 /* RestrictedErrorViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedErrorViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +163,8 @@
 		DE2F3FA029029A9D00DFD47B /* SepiaPetsTests */ = {
 			isa = PBXGroup;
 			children = (
-				DE2F3FA129029A9D00DFD47B /* SepiaPetsTests.swift */,
+				DEF8787F29087FF800268E78 /* Test RestrictedErrorFeature */,
+				DEF8787B29087A3600268E78 /* Test PetListFeature */,
 			);
 			path = SepiaPetsTests;
 			sourceTree = "<group>";
@@ -290,6 +293,22 @@
 				DEF87877290868D100268E78 /* RestrictedErrorCoordinator.swift */,
 			);
 			path = ContentRestricted;
+			sourceTree = "<group>";
+		};
+		DEF8787B29087A3600268E78 /* Test PetListFeature */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878792908754300268E78 /* PetListViewModelTests.swift */,
+			);
+			path = "Test PetListFeature";
+			sourceTree = "<group>";
+		};
+		DEF8787F29087FF800268E78 /* Test RestrictedErrorFeature */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878802908802800268E78 /* RestrictedErrorViewTests.swift */,
+			);
+			path = "Test RestrictedErrorFeature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,7 +475,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2F3FA229029A9D00DFD47B /* SepiaPetsTests.swift in Sources */,
+				DEF878812908802800268E78 /* RestrictedErrorViewTests.swift in Sources */,
+				DEF8787A2908754300268E78 /* PetListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
