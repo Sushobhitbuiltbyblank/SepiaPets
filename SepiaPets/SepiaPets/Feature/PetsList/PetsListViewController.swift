@@ -17,3 +17,6 @@ class PetsListViewController: UIViewController {
 
 }
 
+extension PetsListViewController: Storyboarded {
+
+}

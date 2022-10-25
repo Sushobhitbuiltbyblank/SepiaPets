@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		DE2F3F8B29029A9B00DFD47B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3F8A29029A9B00DFD47B /* AppDelegate.swift */; };
 		DE2F3F8D29029A9B00DFD47B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3F8C29029A9B00DFD47B /* SceneDelegate.swift */; };
-		DE2F3F8F29029A9B00DFD47B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3F8E29029A9B00DFD47B /* ViewController.swift */; };
+		DE2F3F8F29029A9B00DFD47B /* PetsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3F8E29029A9B00DFD47B /* PetsListViewController.swift */; };
 		DE2F3F9229029A9B00DFD47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F3F9029029A9B00DFD47B /* Main.storyboard */; };
 		DE2F3F9429029A9D00DFD47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2F3F9329029A9D00DFD47B /* Assets.xcassets */; };
 		DE2F3F9729029A9D00DFD47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F3F9529029A9D00DFD47B /* LaunchScreen.storyboard */; };
 		DE2F3FA229029A9D00DFD47B /* SepiaPetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3FA129029A9D00DFD47B /* SepiaPetsTests.swift */; };
 		DE2F3FAC29029A9D00DFD47B /* SepiaPetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3FAB29029A9D00DFD47B /* SepiaPetsUITests.swift */; };
 		DE2F3FAE29029A9D00DFD47B /* SepiaPetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F3FAD29029A9D00DFD47B /* SepiaPetsUITestsLaunchTests.swift */; };
+		DEF878372907B7D200268E78 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = DEF878352907B7D200268E78 /* pets_list.json */; };
+		DEF878382907B7D200268E78 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = DEF878362907B7D200268E78 /* config.json */; };
+		DEF8783C2907E90B00268E78 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8783B2907E90B00268E78 /* AppCoordinator.swift */; };
+		DEF8783E2907E9A600268E78 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8783D2907E9A600268E78 /* Coordinator.swift */; };
+		DEF878422907EBFF00268E78 /* PetsListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878412907EBFF00268E78 /* PetsListCoordinator.swift */; };
+		DEF878452907EF9B00268E78 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878442907EF9B00268E78 /* Storyboarded.swift */; };
+		DEF878482907F00E00268E78 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878472907F00E00268E78 /* UIStoryboard+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,7 @@
 		DE2F3F8729029A9B00DFD47B /* SepiaPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SepiaPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F3F8A29029A9B00DFD47B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2F3F8C29029A9B00DFD47B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE2F3F8E29029A9B00DFD47B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE2F3F8E29029A9B00DFD47B /* PetsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListViewController.swift; sourceTree = "<group>"; };
 		DE2F3F9129029A9B00DFD47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE2F3F9329029A9D00DFD47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2F3F9629029A9D00DFD47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		DE2F3FA729029A9D00DFD47B /* SepiaPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SepiaPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F3FAB29029A9D00DFD47B /* SepiaPetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsUITests.swift; sourceTree = "<group>"; };
 		DE2F3FAD29029A9D00DFD47B /* SepiaPetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepiaPetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEF878352907B7D200268E78 /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
+		DEF878362907B7D200268E78 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		DEF8783B2907E90B00268E78 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DEF8783D2907E9A600268E78 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DEF878412907EBFF00268E78 /* PetsListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListCoordinator.swift; sourceTree = "<group>"; };
+		DEF878442907EF9B00268E78 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		DEF878472907F00E00268E78 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,10 @@
 		DE2F3F8929029A9B00DFD47B /* SepiaPets */ = {
 			isa = PBXGroup;
 			children = (
-				DE2F3F8A29029A9B00DFD47B /* AppDelegate.swift */,
-				DE2F3F8C29029A9B00DFD47B /* SceneDelegate.swift */,
-				DE2F3F8E29029A9B00DFD47B /* ViewController.swift */,
+				DEF878432907EF6900268E78 /* Utilities */,
+				DEF878342907B7BA00268E78 /* Resources */,
+				DEF878392907B7E600268E78 /* AppConfig */,
+				DEF8783F2907EBD000268E78 /* Feature */,
 				DE2F3F9029029A9B00DFD47B /* Main.storyboard */,
 				DE2F3F9329029A9D00DFD47B /* Assets.xcassets */,
 				DE2F3F9529029A9D00DFD47B /* LaunchScreen.storyboard */,
@@ -125,6 +140,68 @@
 				DE2F3FAD29029A9D00DFD47B /* SepiaPetsUITestsLaunchTests.swift */,
 			);
 			path = SepiaPetsUITests;
+			sourceTree = "<group>";
+		};
+		DEF878342907B7BA00268E78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878362907B7D200268E78 /* config.json */,
+				DEF878352907B7D200268E78 /* pets_list.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEF878392907B7E600268E78 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8783A2907E8EF00268E78 /* Coordinator */,
+				DE2F3F8A29029A9B00DFD47B /* AppDelegate.swift */,
+				DE2F3F8C29029A9B00DFD47B /* SceneDelegate.swift */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		DEF8783A2907E8EF00268E78 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8783B2907E90B00268E78 /* AppCoordinator.swift */,
+				DEF8783D2907E9A600268E78 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DEF8783F2907EBD000268E78 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878402907EBDE00268E78 /* PetsList */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		DEF878402907EBDE00268E78 /* PetsList */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F3F8E29029A9B00DFD47B /* PetsListViewController.swift */,
+				DEF878412907EBFF00268E78 /* PetsListCoordinator.swift */,
+			);
+			path = PetsList;
+			sourceTree = "<group>";
+		};
+		DEF878432907EF6900268E78 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878462907EFEC00268E78 /* Extensions */,
+				DEF878442907EF9B00268E78 /* Storyboarded.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DEF878462907EFEC00268E78 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878472907F00E00268E78 /* UIStoryboard+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +309,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2F3F9729029A9D00DFD47B /* LaunchScreen.storyboard in Resources */,
+				DEF878372907B7D200268E78 /* pets_list.json in Resources */,
+				DEF878382907B7D200268E78 /* config.json in Resources */,
 				DE2F3F9429029A9D00DFD47B /* Assets.xcassets in Resources */,
 				DE2F3F9229029A9B00DFD47B /* Main.storyboard in Resources */,
 			);
@@ -258,9 +337,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2F3F8F29029A9B00DFD47B /* ViewController.swift in Sources */,
+				DEF878422907EBFF00268E78 /* PetsListCoordinator.swift in Sources */,
+				DEF8783C2907E90B00268E78 /* AppCoordinator.swift in Sources */,
+				DE2F3F8F29029A9B00DFD47B /* PetsListViewController.swift in Sources */,
+				DEF8783E2907E9A600268E78 /* Coordinator.swift in Sources */,
 				DE2F3F8B29029A9B00DFD47B /* AppDelegate.swift in Sources */,
 				DE2F3F8D29029A9B00DFD47B /* SceneDelegate.swift in Sources */,
+				DEF878482907F00E00268E78 /* UIStoryboard+Extension.swift in Sources */,
+				DEF878452907EF9B00268E78 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
