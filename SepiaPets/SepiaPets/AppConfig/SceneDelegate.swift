@@ -16,8 +16,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 //    guard let _ = (scene as? UIWindowScene) else { return }
     if let windowScene = scene as? UIWindowScene {
-      let window = UIWindow(windowScene: windowScene)
-      initializeAppCoordinator(window:window)
+      let appWindow = UIWindow(frame: windowScene.coordinateSpace.bounds)
+      appWindow.windowScene = windowScene
+      initializeAppCoordinator(window:appWindow)
+      window = appWindow
     }
   }
 
@@ -57,7 +59,8 @@ extension SceneDelegate {
   func initializeAppCoordinator(window:UIWindow) {
     window.backgroundColor = .white
     let navigationController = UINavigationController()
-    appCoordinator = AppCoordinator(window: window, navigationController:navigationController)
+    let configProvider = LocalJsonConfigProvider()
+    appCoordinator = AppCoordinator(window: window, navigationController:navigationController, configProvider: configProvider)
     appCoordinator?.start()
   }
 

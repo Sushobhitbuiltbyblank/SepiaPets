@@ -23,6 +23,22 @@
 		DEF878422907EBFF00268E78 /* PetsListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878412907EBFF00268E78 /* PetsListCoordinator.swift */; };
 		DEF878452907EF9B00268E78 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878442907EF9B00268E78 /* Storyboarded.swift */; };
 		DEF878482907F00E00268E78 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878472907F00E00268E78 /* UIStoryboard+Extension.swift */; };
+		DEF8784A2907F36500268E78 /* PetsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878492907F36500268E78 /* PetsListViewModel.swift */; };
+		DEF8784D2907F74F00268E78 /* PetsListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8784C2907F74F00268E78 /* PetsListDataProvider.swift */; };
+		DEF878512907F7DC00268E78 /* LocalJsonPetsListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878502907F7DC00268E78 /* LocalJsonPetsListProvider.swift */; };
+		DEF878552907F8BF00268E78 /* PetsDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878542907F8BF00268E78 /* PetsDataModels.swift */; };
+		DEF8785C290813A200268E78 /* PetsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8785A290813A200268E78 /* PetsListTableViewCell.swift */; };
+		DEF8785D290813A200268E78 /* PetsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF8785B290813A200268E78 /* PetsListTableViewCell.xib */; };
+		DEF8785F29081E1500268E78 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8785E29081E1500268E78 /* ImageDownloader.swift */; };
+		DEF878652908225B00268E78 /* PetsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878642908225B00268E78 /* PetsDetailsViewController.swift */; };
+		DEF878672908234600268E78 /* PetDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878662908234600268E78 /* PetDetailsCoordinator.swift */; };
+		DEF878692908425800268E78 /* PetDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878682908425800268E78 /* PetDetailsViewModel.swift */; };
+		DEF8786B29084E2A00268E78 /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8786A29084E2A00268E78 /* SettingModel.swift */; };
+		DEF8786D29084EE700268E78 /* LocalJsonConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8786C29084EE700268E78 /* LocalJsonConfigProvider.swift */; };
+		DEF8786F2908528200268E78 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8786E2908528200268E78 /* Date+Extension.swift */; };
+		DEF878712908554800268E78 /* AppContentVisibilityConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878702908554800268E78 /* AppContentVisibilityConfigManager.swift */; };
+		DEF878762908677C00268E78 /* RestrictedErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF878752908677C00268E78 /* RestrictedErrorViewController.swift */; };
+		DEF87878290868D100268E78 /* RestrictedErrorCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF87877290868D100268E78 /* RestrictedErrorCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +79,22 @@
 		DEF878412907EBFF00268E78 /* PetsListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListCoordinator.swift; sourceTree = "<group>"; };
 		DEF878442907EF9B00268E78 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		DEF878472907F00E00268E78 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		DEF878492907F36500268E78 /* PetsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListViewModel.swift; sourceTree = "<group>"; };
+		DEF8784C2907F74F00268E78 /* PetsListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListDataProvider.swift; sourceTree = "<group>"; };
+		DEF878502907F7DC00268E78 /* LocalJsonPetsListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonPetsListProvider.swift; sourceTree = "<group>"; };
+		DEF878542907F8BF00268E78 /* PetsDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsDataModels.swift; sourceTree = "<group>"; };
+		DEF8785A290813A200268E78 /* PetsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListTableViewCell.swift; sourceTree = "<group>"; };
+		DEF8785B290813A200268E78 /* PetsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetsListTableViewCell.xib; sourceTree = "<group>"; };
+		DEF8785E29081E1500268E78 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		DEF878642908225B00268E78 /* PetsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsDetailsViewController.swift; sourceTree = "<group>"; };
+		DEF878662908234600268E78 /* PetDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailsCoordinator.swift; sourceTree = "<group>"; };
+		DEF878682908425800268E78 /* PetDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailsViewModel.swift; sourceTree = "<group>"; };
+		DEF8786A29084E2A00268E78 /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
+		DEF8786C29084EE700268E78 /* LocalJsonConfigProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalJsonConfigProvider.swift; sourceTree = "<group>"; };
+		DEF8786E2908528200268E78 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		DEF878702908554800268E78 /* AppContentVisibilityConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContentVisibilityConfigManager.swift; sourceTree = "<group>"; };
+		DEF878752908677C00268E78 /* RestrictedErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedErrorViewController.swift; sourceTree = "<group>"; };
+		DEF87877290868D100268E78 /* RestrictedErrorCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictedErrorCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +145,7 @@
 		DE2F3F8929029A9B00DFD47B /* SepiaPets */ = {
 			isa = PBXGroup;
 			children = (
+				DEF8784B2907F72500268E78 /* DataProvider */,
 				DEF878432907EF6900268E78 /* Utilities */,
 				DEF878342907B7BA00268E78 /* Resources */,
 				DEF878392907B7E600268E78 /* AppConfig */,
@@ -157,6 +190,7 @@
 				DEF8783A2907E8EF00268E78 /* Coordinator */,
 				DE2F3F8A29029A9B00DFD47B /* AppDelegate.swift */,
 				DE2F3F8C29029A9B00DFD47B /* SceneDelegate.swift */,
+				DEF878702908554800268E78 /* AppContentVisibilityConfigManager.swift */,
 			);
 			path = AppConfig;
 			sourceTree = "<group>";
@@ -173,7 +207,10 @@
 		DEF8783F2907EBD000268E78 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				DEF878612908221F00268E78 /* PetsDetails */,
 				DEF878402907EBDE00268E78 /* PetsList */,
+				DEF878562908048300268E78 /* Models */,
+				DEF87874290866C000268E78 /* ContentRestricted */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -181,7 +218,9 @@
 		DEF878402907EBDE00268E78 /* PetsList */ = {
 			isa = PBXGroup;
 			children = (
+				DEF878592908138000268E78 /* Cells */,
 				DE2F3F8E29029A9B00DFD47B /* PetsListViewController.swift */,
+				DEF878492907F36500268E78 /* PetsListViewModel.swift */,
 				DEF878412907EBFF00268E78 /* PetsListCoordinator.swift */,
 			);
 			path = PetsList;
@@ -192,6 +231,7 @@
 			children = (
 				DEF878462907EFEC00268E78 /* Extensions */,
 				DEF878442907EF9B00268E78 /* Storyboarded.swift */,
+				DEF8785E29081E1500268E78 /* ImageDownloader.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -200,8 +240,56 @@
 			isa = PBXGroup;
 			children = (
 				DEF878472907F00E00268E78 /* UIStoryboard+Extension.swift */,
+				DEF8786E2908528200268E78 /* Date+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DEF8784B2907F72500268E78 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8784C2907F74F00268E78 /* PetsListDataProvider.swift */,
+				DEF878502907F7DC00268E78 /* LocalJsonPetsListProvider.swift */,
+				DEF8786C29084EE700268E78 /* LocalJsonConfigProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		DEF878562908048300268E78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878542907F8BF00268E78 /* PetsDataModels.swift */,
+				DEF8786A29084E2A00268E78 /* SettingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DEF878592908138000268E78 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DEF8785A290813A200268E78 /* PetsListTableViewCell.swift */,
+				DEF8785B290813A200268E78 /* PetsListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DEF878612908221F00268E78 /* PetsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878642908225B00268E78 /* PetsDetailsViewController.swift */,
+				DEF878662908234600268E78 /* PetDetailsCoordinator.swift */,
+				DEF878682908425800268E78 /* PetDetailsViewModel.swift */,
+			);
+			path = PetsDetails;
+			sourceTree = "<group>";
+		};
+		DEF87874290866C000268E78 /* ContentRestricted */ = {
+			isa = PBXGroup;
+			children = (
+				DEF878752908677C00268E78 /* RestrictedErrorViewController.swift */,
+				DEF87877290868D100268E78 /* RestrictedErrorCoordinator.swift */,
+			);
+			path = ContentRestricted;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2F3F9729029A9D00DFD47B /* LaunchScreen.storyboard in Resources */,
+				DEF8785D290813A200268E78 /* PetsListTableViewCell.xib in Resources */,
 				DEF878372907B7D200268E78 /* pets_list.json in Resources */,
 				DEF878382907B7D200268E78 /* config.json in Resources */,
 				DE2F3F9429029A9D00DFD47B /* Assets.xcassets in Resources */,
@@ -337,12 +426,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF8784D2907F74F00268E78 /* PetsListDataProvider.swift in Sources */,
+				DEF87878290868D100268E78 /* RestrictedErrorCoordinator.swift in Sources */,
+				DEF8786B29084E2A00268E78 /* SettingModel.swift in Sources */,
+				DEF8786D29084EE700268E78 /* LocalJsonConfigProvider.swift in Sources */,
+				DEF8785F29081E1500268E78 /* ImageDownloader.swift in Sources */,
 				DEF878422907EBFF00268E78 /* PetsListCoordinator.swift in Sources */,
+				DEF8786F2908528200268E78 /* Date+Extension.swift in Sources */,
+				DEF878762908677C00268E78 /* RestrictedErrorViewController.swift in Sources */,
 				DEF8783C2907E90B00268E78 /* AppCoordinator.swift in Sources */,
 				DE2F3F8F29029A9B00DFD47B /* PetsListViewController.swift in Sources */,
+				DEF8785C290813A200268E78 /* PetsListTableViewCell.swift in Sources */,
 				DEF8783E2907E9A600268E78 /* Coordinator.swift in Sources */,
 				DE2F3F8B29029A9B00DFD47B /* AppDelegate.swift in Sources */,
 				DE2F3F8D29029A9B00DFD47B /* SceneDelegate.swift in Sources */,
+				DEF878552907F8BF00268E78 /* PetsDataModels.swift in Sources */,
+				DEF878712908554800268E78 /* AppContentVisibilityConfigManager.swift in Sources */,
+				DEF878652908225B00268E78 /* PetsDetailsViewController.swift in Sources */,
+				DEF8784A2907F36500268E78 /* PetsListViewModel.swift in Sources */,
+				DEF878692908425800268E78 /* PetDetailsViewModel.swift in Sources */,
+				DEF878672908234600268E78 /* PetDetailsCoordinator.swift in Sources */,
+				DEF878512907F7DC00268E78 /* LocalJsonPetsListProvider.swift in Sources */,
 				DEF878482907F00E00268E78 /* UIStoryboard+Extension.swift in Sources */,
 				DEF878452907EF9B00268E78 /* Storyboarded.swift in Sources */,
 			);
